@@ -2761,6 +2761,7 @@ MonoBehaviour:
   nextButton: {fileID: 230588145}
   _canvas: {fileID: 1796417062}
   costText: {fileID: 491027645}
+  checkoutButton: {fileID: 1724097202}
 --- !u!4 &1483419124
 Transform:
   m_ObjectHideFlags: 0
@@ -4228,6 +4229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cartTransform: {fileID: 1241063502}
+  fileName: example.json
 --- !u!1001 &1969402624
 PrefabInstance:
   m_ObjectHideFlags: 0

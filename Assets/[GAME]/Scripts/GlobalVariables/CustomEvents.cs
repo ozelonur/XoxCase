@@ -6,5 +6,6 @@ namespace _GAME_.Scripts.GlobalVariables
         public const string ProductTook = nameof(ProductTook);
         public const string AddProductToTheShelf = nameof(AddProductToTheShelf);
         public const string UpdateTotalCost = nameof(UpdateTotalCost);
+        public const string Checkout = nameof(Checkout);
     }
 }

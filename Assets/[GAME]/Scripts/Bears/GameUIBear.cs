@@ -4,6 +4,7 @@ using OrangeBear.Core;
 using OrangeBear.Utilities;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace OrangeBear.Bears
 {
@@ -16,12 +17,23 @@ namespace OrangeBear.Bears
 
         [Header("Components")] [SerializeField]
         private TMP_Text costText;
+        [SerializeField] private Button checkoutButton;
 
         #endregion
 
         #region Private Variables
 
         private float _oldCost;
+
+        #endregion
+
+        #region MonoBehavior Methods
+
+        protected override void Awake()
+        {
+            base.Awake();
+            checkoutButton.onClick.AddListener(() => Roar(CustomEvents.Checkout));
+        }
 
         #endregion
 
