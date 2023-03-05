@@ -7,6 +7,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 260924142745553915, guid: 8ead5672012c5424cb058095734b915b,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b9286b9089f4e3d44a22e4b1a31c13b4,
+        type: 3}
     - target: {fileID: 7114131373393954793, guid: 8ead5672012c5424cb058095734b915b,
         type: 3}
       propertyPath: m_Name
@@ -137,5 +143,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac80b17494fb493c98f314673bb3fe76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nameText: {fileID: 9187185251980932990}
+  priceText: {fileID: 2145130165976156060}
   <Price>k__BackingField: 10.99
   <Name>k__BackingField: LEVEL
+--- !u!114 &2145130165976156060 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7114131374443190209, guid: 8ead5672012c5424cb058095734b915b,
+    type: 3}
+  m_PrefabInstance: {fileID: 9187185252431171677}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9187185251980932990 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 651814691, guid: 8ead5672012c5424cb058095734b915b,
+    type: 3}
+  m_PrefabInstance: {fileID: 9187185252431171677}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

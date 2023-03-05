@@ -6,8 +6,9 @@ namespace _GAME_.Scripts.Products
     {
         #region MonoBehavior Methods
 
-        private void Awake()
+        protected override void Awake()
         {
+            base.Awake();
             ProductType = ProductType.Food;
         }
 
