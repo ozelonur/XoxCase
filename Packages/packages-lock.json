@@ -14,6 +14,13 @@
       "dependencies": {},
       "hash": "2ba7561f53818b8e91591291734ed68cfc9d73c2"
     },
+    "com.orangebear.utilities": {
+      "version": "https://github.com/ozelonur/com.orangebear.utilities.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "896f01b9982d450e248fe0b41aa9513495352ebc"
+    },
     "com.unity.burst": {
       "version": "1.8.2",
       "depth": 1,
