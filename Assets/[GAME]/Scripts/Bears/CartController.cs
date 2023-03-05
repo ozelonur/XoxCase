@@ -6,6 +6,11 @@ namespace OrangeBear.Bears
 {
     public class CartController : Bear
     {
+        #region Serialized Fields
+
+        [Header("Components")]
+        [SerializeField] private Transform cartTransform;
+        #endregion
         #region MonoBehavior Methods
 
         private void OnTriggerEnter2D(Collider2D col)
@@ -15,7 +20,7 @@ namespace OrangeBear.Bears
                 return;
             }
 
-            print("Player interacted with cart");
+            player.InteractedWithCart(cartTransform);
         }
 
         #endregion

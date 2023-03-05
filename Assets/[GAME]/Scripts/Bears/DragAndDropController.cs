@@ -81,6 +81,11 @@ namespace OrangeBear.Bears
             {
                 StartCoroutine(MoveToStartPosition());
             }
+
+            else
+            {
+                Roar(CustomEvents.ProductTook, gameObject.GetInstanceID(), _startPosition, transform.parent);
+            }
         }
 
         #endregion
